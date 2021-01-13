@@ -10,7 +10,7 @@
     <ion-label class="value">{{value}}
     </ion-label>
   </ion-item>
-  <div *ngFor="let numGroup of Group">
+  <div *ngFor="let numGroup of Group"><!--*ngFOr Create table for group item ie array items-->
   <ion-button *ngFor="let num of numGroup" (click)="onButtonclick(num)">{{num}}</ion-button>
   </div>
 </ion-content>
